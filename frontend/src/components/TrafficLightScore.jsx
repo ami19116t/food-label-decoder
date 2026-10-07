@@ -1,0 +1,1 @@
+export default function TrafficLightScore({score,t}){const s=score||{level:'amber',label:'Not scored'}; return <div className={`score ${s.level}`}><div className="lights"><i/><i/><i/></div><div><small>{t.score}</small><h2>{s.label}</h2><p>{t.scoreNote}</p></div></div>}
